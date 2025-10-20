@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "buildCommand": "npm ci && npm run build",
+  "buildCommand": "NPM_CONFIG_PRODUCTION=false npm install --include=dev && npm run build",
   "outputDirectory": "dist"
 }
 
